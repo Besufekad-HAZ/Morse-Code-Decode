@@ -193,10 +193,8 @@ Feel free to check the [issues page](https://github.com/Besufekad-HAZ/Morse-Code
 - **How do I install and run the project?**
 
   - To install and run the project, you will need to have Ruby installed on your computer. Once you have Ruby installed, you can download the project files and run the program from the command line using the following command:
-  <br/>
-  ``` sh
-  ruby morse_decoder.rb
-  ```
+    <br/>
+    `ruby morse_decoder.rb`
 
 - **What technologies and libraries are used in the project?**
 
