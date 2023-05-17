@@ -1,4 +1,4 @@
-@MORSE_DIC = {
+@morse_code = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -29,18 +29,18 @@
 
 def process_char(letter)
   # @ is immutable symbol used as referencing method names
-  @this_letter = @MORSE_DIC[letter]
+  @this_letter = @morse_code[letter]
   @this_letter
 end
 
 def word_decoder(word)
- @letters = word.split
- @current_word = ''
- @letters.each do |letter|
-  process_char(letter)
-  @current_word += process_char(letter)
- end
- print "#{@current_word}"
+  @letters = word.split
+  @current_word = ''
+  @letters.each do |letter|
+    process_char(letter)
+    @current_word += process_char(letter)
+  end
+  print "#{@current_word} "
 end
 
 def msg_decoder(message)
@@ -53,3 +53,4 @@ end
 
 
 msg_decoder('-- -.--   -. .- -- .')
+msg_decoder('  .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
