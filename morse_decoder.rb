@@ -50,7 +50,5 @@ def msg_decoder(message)
   end
 end
 
-
-
 msg_decoder('-- -.--   -. .- -- .')
 msg_decoder('  .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
