@@ -1,4 +1,4 @@
-morse_dictionary = {
+MORSE_DIC = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
@@ -25,4 +25,4 @@ morse_dictionary = {
   '-..-' => 'X',
   '-.--' => 'Y',
   '--..' => 'Z'
-}
+}.freeze
