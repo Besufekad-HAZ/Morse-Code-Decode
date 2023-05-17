@@ -1,4 +1,4 @@
-@dictionary = {
+morse_dictionary = {
   '.-' => 'A',
   '-...' => 'B',
   '-.-.' => 'C',
